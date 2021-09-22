@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SoSiety: Sophia's site but blended together with a spelling mistake and an extra y for flair.">
+
+    <title> SoSiety </title>
+  </head>
+  <body style="background-color:lightblue;">
+
+
+    <!-- https://www.sliderrevolution.com/resources/css-dropdown-menu/ author: amr subzero -->
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Computer Science</a>
+          <ul>
+            <li><a href="csvideos.html">Videos</a></li>
+            <li><a href="csnotes.html">Notes</a></li>
+            <li><a href="csresources.html">Resources</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Français</a>
+          <ul>
+            <li><a href="frvideo.html">Vidéos</a></li>
+            <li><a href="frverbes.html">Verbes</a></li>
+            <li><a href="frressources.html">Ressources</a></li>
+          </ul>
+        </li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-container">
+        <div class="column-left">
+          <h1 class="title"> Glad you're here. Now what?</h1>
+          <p>Proceed with caution, but not <i>too</i> much caution.</p>
+        </div>
+      </div>
+      <div class="column-right">
+        <iframe src="https://i.simmer.io/@iaylee/test" style="width:960px;height:600px"></iframe>
+
+      </div>
+    </section>
+
+
+
+
+    <header>
+      <nav>
+          <!-- navigational code goes here-->
+      </nav>
+    </header>
+    <main>
+      <article>
+        <!-- article? code goes here-->
+        <section>
+
+          <aside>
+            <!-- information not directly about article code goes here-->
+          </aside>
+
+        </section>
+      </article>
+
+    </main>
+    <footer>
+
+    </footer>
+    <a href="https://www.google.com" target="_blank"> Google's homepage </a>
+    <br/> <!-- this is a break-->
+    <hr/>  <!-- this is a horizontal line-->
+    <p>You have entered the SoSite.</p>
+    <p>Proceed with caution, but not <i>too</i> much caution.</p>
+    <p>H<sub>2</sub>O</p>
+    <p>10<sup>2</sup></p>
+
+    <p style="color:white; background-color:black;">Styling HTML and make it look pretty <3</p>
+    <img src="https://64.media.tumblr.com/17d7e0b028db70f56d8f2c6d00991162/e41bbb6cb319b5bf-2d/s540x810/a60d77f47158e1ae1398ade27f7323a9df719d65.gifv" alt="Perfume ad video" width="270" height="175"/>
+  </body>
+</html>

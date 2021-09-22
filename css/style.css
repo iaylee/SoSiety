@@ -1,0 +1,248 @@
+/* index.html */
+*{
+  margin:0;
+  padding:0;
+}
+
+.container{
+  height:100vh;
+  width: 100%;
+  /*image credit: https://wallpapercave.com/purple-aesthetic-computer-wallpapers
+  background-image : url(/images/indexbg.png);*/
+  /* padding-left: 2%;
+  padding-right: 2%; */
+  box-sizing: content-box;
+  position: relative;
+
+}
+
+/* for the navigation bar */
+.navbar{
+  width:100%;
+  height: 15vh;
+  margin: auto;
+  display: flex;
+  align-items: center:
+
+}
+
+.logo{
+  width: 210px;
+  height: 150px;
+  cursor: pointer;
+}
+
+nav {
+  margin:5 auto;
+  width:100%;
+  height:auto;
+  display:inline-block;
+  font-style: italic;
+  font-family: cursive;
+  font-size: 20px;
+
+}
+
+nav ul {
+  margin:0;padding:0;
+  list-style-type:none;
+  float:left;
+  display:inline-block;
+  z-index: 99;
+}
+
+nav ul li {
+  position:relative;
+  margin:0 20px 0 0;
+  float:left;
+  display:inline-block;
+}
+
+li > a:after { content: ' ▽'; } /* Change this in order to change the Dropdown symbol */
+
+li > a:only-child:after { content: ''; }
+
+nav ul li a {
+  padding:20px;
+  display:inline-block;
+  color:black;
+  text-decoration:none;
+}
+
+nav ul li a:hover {
+  opacity:0.5;
+}
+
+nav ul li ul {
+  display:none;
+  position: absolute;
+  left:0;
+  background:#ffffff;
+  float:left;
+}
+
+nav ul li ul li {
+  width:100%;
+  border-bottom:1px solid rgba(255,255,255,.3);
+}
+
+nav ul li:hover ul {
+  display:block;
+}
+
+/* for the text on screen*/
+.content h1{
+  padding-top: 10%;
+  font-size: 60px;
+  font-weight: 100;
+  margin-top: 24px;
+  margin-bottom: 15px;
+  color: #232d60;
+}
+
+.content p{
+  font-size: 20px;
+  color: #232d60;
+}
+
+.content {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.content .btn{
+  display: inline-block;
+  background: linear-gradient(45deg, #87adfe, #ff77cd);
+  border-radius: 6px;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #ffffff;
+  box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+  margin-top:50px;
+  margin-left: 30px;
+}
+
+.social-links {
+  position: absolute;
+  right: 70px;
+  bottom: 30px;
+}
+
+.social-links a{
+  text-decoration: none;
+  color: #6a7199;
+  padding-right: 20px;
+  font-size: 13px;
+
+}
+
+/* about.html */
+
+.hero-container {
+  font-family: monospace;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 70vh;
+  padding: 0rem calc((100vw - 1300px) /2);
+}
+
+.column-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #000;
+  padding: 0rem 1rem;
+}
+
+.column-left h1{
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.column-left h4{
+  margin-bottom: 1.3rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.column-left p{
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+
+button {
+  padding:1rem 3rem;
+  font-size: 1rem;
+  border: none;
+  font-family: monospace;
+  color: #eecc04;
+  background: #000;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+button:hover {
+  background: #dddddd;
+  color: #000;
+}
+
+.column-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0rem 2rem;
+}
+
+.hero-img{
+  border-radius: 100%;
+  border: 1px solid #ddd;
+  border-color: white;
+  border-radius: 5px;
+  background-color: #000;
+  padding: 6px;
+  max-width: 80%;
+  max-height: auto;
+}
+
+.hero-img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+/*fr verbs*/
+.frverb {
+  /* https://www.ppt-backgrounds.net/lined/11806-lined-paper-textures-walpaper-frame-downloads-backgrounds.html
+  https://wallpaperaccess.com/pastel-beach*/
+  /* background: url("/images/marblycolours.jpeg");
+  background-size: cover; */
+  margin:0;
+  padding:0;
+}
+
+/*ennuye, or frvideos*/
+.game {
+  /* background: url(/images/rainywindow.jpeg);
+  background-size:cover; */
+  margin:0;
+  padding:0;
+
+}
+
+/*fr ressources*/
+
+.owl-carousel
+ {
+   margin: 3px;
+   padding: 3px;
+   z-index:0;
+ }
+
+ .item:hover
+{
+  border-radius: 6px;
+    background: #dddddd;
+    color: #fff;
+    z-index:inherit;
+}
